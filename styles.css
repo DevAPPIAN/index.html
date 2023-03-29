@@ -1,0 +1,45 @@
+
+    /* In CSS we declare tags used on the html page to give them styles fonts colors etc, as you will see below.
+    Please use my resource as reference, provide your own colors and font styles and content, have fun with it. 
+    This is resource to better understand what code does to your content */
+    
+    Body{
+        background-color: lightskyblue;
+      }
+      h1{
+        color: white;
+        
+      }
+
+      h2{
+        color: yellow;
+        text-decoration: underline;
+
+      }
+/* The code above is declaring h1 h2 and the body tags on the html page WILL HAVE its own color and style
+*/
+      p1 {
+        font-family: Arial;
+        color: LightGrey;
+    }   
+
+        p2 {
+        font-family: Arial;
+        color: yellow;
+
+}
+
+      ul {
+        background: #3399ff;
+        padding: 13px;
+      }
+/* The code above is targeting the Unorganized list "ul" and it says it will have a BLUE background COLOR and
+its padding will be 25 pixels */
+
+.result {
+    color: white;
+    
+}
+
+/* the code above shows .result is targeting ul class="result" under a div  and thus we can change to any color we want on 
+the DIV tag*/
